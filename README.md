@@ -57,17 +57,17 @@ Note: Ads + Knifing Opens The In-Game Menu.
 
 * Fix killstreaks sometimes not working.
 * Add drop weapons death mod.
-* Fix leg bug on death anims
-* Replace heli model with mw3 heli model
-* Add more custom models to the change model menu
+* Fix leg bug on death anims.
+* Replace heli model with mw3 heli model.
+* Add more custom models to the change model menu.
 * Add rain dvar to give anymap rain.
-* Fix SP maps not working
+* Fix SP maps not working.
 * Fix postions on the menu.
-* Add EB
+* Add EB.
 * Add button to increase player damage to make one shot.
-* Add rpg bullets
+* Add rpg bullets.
 * Add hud popups when enabling things in the menu.
-* Make trailer and make banner
+* Make trailer and make banner.
 
 ## Credits
 
