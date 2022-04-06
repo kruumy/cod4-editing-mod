@@ -1,0 +1,8 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,conversion
+
+# MW2019 KILO Model: Kortun/Sektor_Gaza_Xou
+
+
+weap_mw_kilo141_magout,,weps/mw2019_KILO/weap_kilo_clipout.wav,0.5,0.55,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+weap_mw_kilo141_magin,,weps/mw2019_KILO/weap_kilo_clipin.wav,0.5,0.55,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+weap_mw_kolo141_zatvor,,weps/mw2019_KILO/weap_kilo_zatwor.wav,0.5,0.55,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,

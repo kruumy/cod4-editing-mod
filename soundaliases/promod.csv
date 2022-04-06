@@ -1,0 +1,7 @@
+
+
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage
+
+promod_destroyed,1,promod/destroyed.wav,0.7,0.7,,,,360,600,announcer,streamed,,,master,all_mp,,,,,,radio,nowetlevel,,0.1
+promod_planted,1,promod/planted.wav,0.7,0.7,,,,360,600,announcer,streamed,,,master,all_mp,,,,,,radio,nowetlevel,,0.1
+promod_defused,1,promod/defused.wav,0.7,0.7,,,,360,600,announcer,streamed,,,master,all_mp,,,,,,radio,nowetlevel,,0.1

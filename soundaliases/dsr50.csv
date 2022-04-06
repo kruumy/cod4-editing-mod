@@ -1,0 +1,14 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage
+#dsr50
+weap_dsr50_fire_plr,,weapons\dsr50\weap_dsr50_slst.wav,0.9,1,wpnplyr,0.8,0.9,500000,,local,,,,0.85,,,,,weapon2
+weap_dsr50_fire_npc,,weapons\dsr50\weap_dsr50_slst.wav,0.8,1,wpnai,0.95,1.05,35,10920,weapon,,,,0.7,all_mp,,,,weapon4
+weap_dsr50_sil_fire_plr,,weapons\dsr50\weap_dsr50_sil.wav,0.9,1,wpnplyr,0.8,0.9,500000,,local,,,,0.85,,,,,weapon2
+weap_dsr50_sil_fire_npc,,weapons\dsr50\weap_dsr50_sil.wav,0.8,1,wpnai,0.95,1.05,35,10920,weapon,,,,0.7,all_mp,,,,weapon4
+
+weap_dsr50_mag_out,,weapons\dsr50\weap_sniper_mag_out.wav,0.75,0.8,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,100
+weap_dsr50_mag_in,,weapons\dsr50\weap_sniper_mag_in.wav,0.75,0.8,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,100
+weap_dsr50_bolt_up,,weapons\dsr50\weap_sniper_bu.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85
+weap_dsr50_bolt_back,,weapons\dsr50\weap_sniper_bb.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85
+weap_dsr50_bolt_forward,,weapons\dsr50\weap_sniper_bf.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85
+weap_dsr50_bolt_down,,weapons\dsr50\weap_sniper_bd.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85
+weap_dsr50_scope_click,,weapons\dsr50\weap_weapon_tap.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85

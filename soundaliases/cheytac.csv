@@ -1,0 +1,12 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage
+#l96a1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+weap_cheytac_fire_plr,,weapons\cheytac\weap_cheytac_slst_2d3mp.wav,0.9,1,wpnplyr,0.8,0.9,500000,,local,,,,0.85,,,,,weapon2,,,,,,,,,
+weap_cheytac_fire_npc,,weapons\cheytac\weap_cheytac_slst_2d3mp.wav,0.8,1,wpnai,0.95,1.05,35,10920,weapon,,,,0.7,all_mp,,,,weapon4,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+weap_cheytac_clipout_plr,,weapons\cheytac\wpfoly_cheytech_reload_clipout_v1.wav,0.75,0.8,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,100,,,,,,,,
+weap_cheytac_clipin_plr,,weapons\cheytac\wpfoly_cheytech_reload_clipin_v1.wav,0.75,0.8,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,100,,,,,,,,
+weap_cheytac_chamber_close_plr,,weapons\cheytac\wpfoly_cheytech_reload_boltclose_v1.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,,,,,,,,,,
+weap_cheytac_bolt_unlock_plr,,weapons\cheytac\wpfoly_cheytech_reload_boltunlock_v1.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,,,,,,,,,,
+weap_cheytac_bolt_open_plr,,weapons\cheytac\wpfoly_cheytech_reload_boltopen_v1.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,,,,,,,,,,
+weap_cheytac_bolt_close_plr,,weapons\cheytac\wpfoly_cheytech_reload_boltclose_v1.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,,,,,,,,,,
+weap_cheytac_bolt_lock_plr,,weapons\cheytac\wpfoly_cheytech_reload_boltlock_v1.wav,0.65,0.7,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,,,,,,,,,,

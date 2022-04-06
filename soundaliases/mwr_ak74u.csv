@@ -1,0 +1,11 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,conversion
+
+weap_mwr_ak74u_bolt_in_plr,,mwr/weapons/ak74u/weap_mwr_ak74u_bolt_in_plr.wav,0.5,0.5,wpnplyr,0.9,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+weap_mwr_ak74u_bolt_out_plr,,mwr/weapons/ak74u/weap_mwr_ak74u_bolt_out_plr.wav,0.5,0.5,wpnplyr,0.9,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+weap_mwr_ak74u_clip_in_plr,,mwr/weapons/ak74u/weap_mwr_ak74u_clip_in_plr.wav,0.75,0.75,wpnplyr,0.9,0.95,7,500,reload2d,,,,0.85,,,,,weapon2,
+weap_mwr_ak74u_clip_out_plr,,mwr/weapons/ak74u/weap_mwr_ak74u_clip_out_plr.wav,0.75,0.75,wpnplyr,0.9,0.95,7,500,reload2d,,,,0.85,,,,,weapon2,
+weap_mwr_ak74u_fire_plr,,mwr/weapons/ak74u/weap_mwr_ak74u_fire_plr.wav,0.95,1,wpnplyr,0.96,1,500000,,local,,,,0.85,,,,,weapon2
+weap_mwr_ak74u_fire_silenced_plr,,mwr/weapons/ak74u/weap_mwr_ak74u_fire_silenced_plr.wav,0.95,1,wpnplyr,1,1,500000,,local,,,,0.85,,,,,weapon2
+weap_mwr_ak74u_ins_look_01_plr,,mwr/weapons/ak74u/weap_mwr_ak74u_ins_look_01_plr.wav,0.95,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+weap_mwr_ak74u_ins_look_02_plr,,mwr/weapons/ak74u/weap_mwr_ak74u_ins_look_02_plr.wav,0.95,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+weap_mwr_ak74u_ins_look_rest_plr,,mwr/weapons/ak74u/weap_mwr_ak74u_ins_look_rest_plr.wav,0.95,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
