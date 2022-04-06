@@ -1,0 +1,182 @@
+#include "ui/menudef.h"
+#include "ui_mp/common_macro.inc"
+#define MODEL_WIDTH 			270
+#define CHOICE_SIZE_X			//150
+#define CHOICE_SIZE_Y			22
+
+#define CHOICE_X_START			0
+#define CHOICE_Y_START			34
+
+#define CHOICE_SEP_OFFSET_Y		-2
+
+//#define CHOICE_SEP_1			2
+
+#include "ui_mp/menustyle.inc"
+#include "ui/choices_setup_common.menu"
+
+#define HIGH_BOUND		"1000"
+
+// ------
+
+#define STAT_XP execNow "statGetInDvar 2301 ui_stat_rankxp"
+#define LOADOUT_ALIGN 	RIGHTITEM_ALIGN VERTICAL_ALIGN_TOP
+#define ORIGIN_LOADOUT			((-(MODEL_WIDTH - RIGHTITEM_OFFSET))-80) 38
+{
+	menuDef
+	{
+		name			"changemodel"
+		rect			0 0 640 480
+		focuscolor		COLOR_FOCUSED
+		style			WINDOW_STYLE_EMPTY
+		blurWorld		7.0
+		onOpen
+		{
+			// update player's XP
+			STAT_XP
+			
+			execnow "set ui_class_offset 200; set ui_multi_s "HIGH_BOUND"; set ui_multi_dt 0";
+		}
+		onEsc 
+		{
+			scriptMenuResponse "back";
+		}
+		
+		#ifndef PC
+		execkeyint BUTTON_START
+		{
+			close self;
+		}
+		#endif
+		
+		// background overlay
+		itemDef	{
+			style			WINDOW_STYLE_FILLED
+			rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
+			backcolor		0 0 0 .75 //0 0.05 0.15 0.5
+			visible			1
+			decoration
+		}
+		// gradient_top
+		itemDef	{
+			style			WINDOW_STYLE_SHADER
+			rect			0 0 854 75 HORIZONTAL_ALIGN_FULLSCREEN 0
+			background		"gradient_top"
+			visible			1
+			decoration
+		}
+		// gradient_bottom
+		itemDef	{
+			style			WINDOW_STYLE_SHADER
+			rect			0 405 854 75 HORIZONTAL_ALIGN_FULLSCREEN 0
+			background		"gradient_bottom"
+			visible			1
+			decoration
+		}
+
+		// ------------------ TREE TITLE ------------------
+		
+		CHOICE_MENU_TITLE( "@MPUI_CHOOSE_MODEL_CAP" )
+
+		// ------------------ buttons ---------------------
+		#define BACK_OPEN	;
+		#include "ui_mp/navcontrols.inc"
+		
+		//=========================================================================
+		//================ MENU SELECTION FOR ONLINE/OFFLINE GAME =================
+		//=========================================================================
+		#include "ui_mp/teamicon.inc"
+		
+		/* =================================== Model Choices ================================= */
+
+		// PC widescreen fix
+		#ifdef PC
+			#undef  CHOICE_X_START
+			#define CHOICE_X_START	-320
+			
+			#undef	CHOICE_HORIZONTAL_ALIGN
+			#define CHOICE_HORIZONTAL_ALIGN HORIZONTAL_ALIGN_CENTER
+		#endif
+		#include "ui_mp/cac_models.inc"
+		CHOICE_SECTION_TITLE( 1, "@MPUI_DEFAULT_MODELS" )	
+
+		CHOICE_BUTTON_FOCUS( 2, "@MPUI_MODEL1", scriptMenuResponse "changemodel_assault"; close self, show MODEL_1_IMAGE, hide MODEL_1_IMAGE; )
+		itemdef
+		{
+		    name "MODEL_1_IMAGE"
+			visible 0
+			rect 270 70 300 300
+			style WINDOW_STYLE_SHADER
+			background "models_0001"
+			decoration
+		}
+		
+		CHOICE_BUTTON_FOCUS( 3, "@MPUI_MODEL2", scriptMenuResponse "changemodel_specops"; close self, show MODEL_2_IMAGE, hide MODEL_2_IMAGE; )
+		itemdef
+		{
+		    name "MODEL_2_IMAGE"
+			visible 0
+			rect 270 70 300 300
+			style WINDOW_STYLE_SHADER
+			background "models_0002"
+			decoration
+		}
+		
+		CHOICE_BUTTON_FOCUS( 4, "@MPUI_MODEL3", scriptMenuResponse "changemodel_support"; close self, show MODEL_3_IMAGE, hide MODEL_3_IMAGE; )
+		itemdef
+		{
+		    name "MODEL_3_IMAGE"
+			visible 0
+			rect 270 70 300 300
+			style WINDOW_STYLE_SHADER
+			background "models_0003"
+			decoration
+		}
+		
+		CHOICE_BUTTON_FOCUS( 5, "@MPUI_MODEL4", scriptMenuResponse "changemodel_demolitions"; close self, show MODEL_4_IMAGE, hide MODEL_4_IMAGE; )
+		itemdef
+		{
+		    name "MODEL_4_IMAGE"
+			visible 0
+			rect 270 70 300 300
+			style WINDOW_STYLE_SHADER
+			background "models_0004"
+			decoration
+		}
+		
+		CHOICE_BUTTON_FOCUS( 6, "@MPUI_MODEL5", scriptMenuResponse "changemodel_sniper"; close self, show MODEL_5_IMAGE, hide MODEL_5_IMAGE; )
+		itemdef
+		{
+		    name "MODEL_5_IMAGE"
+			visible 0
+			rect 270 70 300 300
+			style WINDOW_STYLE_SHADER
+			background "models_0005"
+			decoration
+		}
+		
+		CHOICE_SECTION_TITLE( 8, "@MPUI_ADDITIONAL_MODELS" )	
+		
+		CHOICE_BUTTON_FOCUS( 9, "@MPUI_MODEL6", scriptMenuResponse "changemodel_additional1"; close self, show MODEL_6_IMAGE, hide MODEL_6_IMAGE; )
+		itemdef
+		{
+		    name "MODEL_6_IMAGE"
+			visible 0
+			rect 270 70 300 300
+			style WINDOW_STYLE_SHADER
+			background "models_0006"
+			decoration
+		}
+		
+		CHOICE_BUTTON_FOCUS( 15, "@MPUI_MODEL0", scriptMenuResponse "changemodel_default"; close self, show MODEL_0_IMAGE, hide MODEL_0_IMAGE; )
+		itemdef
+		{
+		    name "MODEL_0_IMAGE"
+			visible 0
+			rect 270 70 300 300
+			style WINDOW_STYLE_SHADER
+			background "models_0004"
+			decoration
+		}
+		
+	}
+}
