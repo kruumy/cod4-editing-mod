@@ -68,6 +68,7 @@ Note: Ads + Knifing Opens The In-Game Menu.
 * Add rpg bullets.
 * Add hud popups when enabling things in the menu.
 * Make trailer and make banner.
+* Make aimbot actually toggle
 
 ## Credits
 
