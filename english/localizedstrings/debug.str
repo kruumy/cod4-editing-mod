@@ -1,0 +1,58 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE			CHANGE_CLIMB
+LANG_ENGLISH		"Waypoint Type changed to Climb"
+
+REFERENCE			CHANGE_NORMAL
+LANG_ENGLISH		"Waypoint Type changed to Normal"
+
+REFERENCE			CHANGE_KILLZONE
+LANG_ENGLISH		"Waypoint Type changed to Killzone"
+
+REFERENCE			WAYPOINT_ADD
+LANG_ENGLISH		"Waypoint Added"
+
+REFERENCE			WAYPOINT_DELETE
+LANG_ENGLISH		"Waypoint Deleted"
+
+REFERENCE			WAYPOINT_LINK_STARTED
+LANG_ENGLISH		"Waypoint Link Started"
+
+REFERENCE			WAYPOINT_LINK_CANCEL
+LANG_ENGLISH		"Waypoint Link Cancelled"
+
+REFERENCE			REACHED_UNLINKWAYPOINT
+LANG_ENGLISH		"Reached UnLinkWaypoint"
+
+REFERENCE			KILLPOINT_ADD
+LANG_ENGLISH		"Killpoint Added"
+
+REFERENCE			KILLPOINT_DELETE
+LANG_ENGLISH		"Killpoint Deleted"
+
+REFERENCE			PEZ_LOADED
+LANG_ENGLISH		"PeZBOT waypoints loaded successfully"
+
+REFERENCE			PEZ_NOSUPPORT
+LANG_ENGLISH		"Map does not support PeZBOT waypoints"
+
+REFERENCE			AUTO_ON
+LANG_ENGLISH		"Auto Waypoints On"
+
+
+ENDMARKER
+
+
