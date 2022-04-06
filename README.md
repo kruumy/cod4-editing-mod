@@ -67,6 +67,7 @@ Note: Ads + Knifing Opens The In-Game Menu.
 * Add button to increase player damage to make one shot.
 * Add rpg bullets
 * Add hud popups when enabling things in the menu.
+* Make trailer and make banner
 
 ## Credits
 
