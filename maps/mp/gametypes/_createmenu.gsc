@@ -4,16 +4,6 @@
 
 init()
 {
-	precacheMenu("weapons");
-	precacheMenu("stockweap");
-	precacheMenu("mainkrum");
-	precacheMenu("customweap");
-	precacheMenu("weapdef");
-	precacheMenu("botdef");
-	precacheMenu("streakdef");
-	precacheMenu("miscdef");
-	precacheMenu("playerdef");
-	precacheMenu("bulletsdef");
 	thread menu();
 }
 

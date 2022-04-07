@@ -15,6 +15,8 @@ init()
 	setDvar("shootcars", "0");
 	setDvar("shootstop", "0");
 	setDvar("allperks", "0");
+	setDvar("unlockall", "0");
+	setDvar("giverain", "0");
 	self thread GivePlayerAirstrike();
 	self thread GivePlayerHeli();
 	self thread GivePlayerRadar();
@@ -27,6 +29,8 @@ init()
 	self thread shootPackage();
 	self thread shootStop();
 	self thread giveallperkstoggle();
+	self thread unlockallDvar();
+	self thread spawnRain();
 }
 
 GivePlayerAirstrike()
@@ -285,6 +289,40 @@ autoAim()
 		self notify( "stop_aimbot");
 	}
 }
+
+unlockallDvar()
+{
+	self endon("disconnect");
+
+	for (;;)
+	{
+		if (getDvarInt("unlockall") == 1)
+		{	
+			self thread toggleUnlockAll();
+			setDvar("unlockall", "0");
+		}
+		wait 0.1;
+	}
+}
+
+toggleUnlockAll()
+{
+	self endon ( "disconnect" );
+	self endon ( "death" );
+	if(self.unlock == false )
+	{
+		self.unlock = true;
+		self iPrintln("Unlocking all");
+		setDvar("svr_pezbots_XPCheat", "1");
+	}
+	else
+	{
+		self.unlock = false;
+		self iPrintln("Disabling Unlocking all");
+		setDvar("svr_pezbots_XPCheat", "0");
+	}
+}
+
 ToggleAutoAim()
 {
 	self endon( "disconnect" );
@@ -308,5 +346,26 @@ ToggleAutoAim()
 			self setplayerangles( VectorToAngles( ( aimAt getTagOrigin( "j_head" ) ) - ( self getTagOrigin( "j_head" ) ) ) );
 			aimAt thread [[level.callbackPlayerDamage]]( self, self, 2147483600, 8, "MOD_HEAD_SHOT", self getCurrentWeapon(), (0,0,0), (0,0,0), "head", 0 );
 		}
+	}
+}
+
+spawnRain()
+{
+	self endon("disconnect");
+
+	for (;;)
+	{
+		if (getDvarInt("giverain") == 1)
+		{	
+			start = self getTagOrigin("tag_eye");
+			end = anglestoforward(self getPlayerAngles()) * 1000000;
+			fxpos = BulletTrace(start, end, true, self)["position"];
+			level._effect[ "rain_heavy_mist" ] = loadfx( "weather/rain_mp_farm" );
+			level._effect[ "lightning" ] = loadfx( "weather/lightning_mp_farm" );
+			playFX(level._effect[getDvar("rain_heavy_mist")], fxpos);
+			playFX(level._effect[getDvar("lightning")], fxpos);
+			setDvar("giverain", "0");
+		}
+		wait 0.1;
 	}
 }

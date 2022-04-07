@@ -20,8 +20,8 @@ init()
 	{
 		game["menu_callvote"] = "callvote";
 		game["menu_muteplayer"] = "muteplayer";
-		precacheMenu(game["menu_callvote"]);
-		precacheMenu(game["menu_muteplayer"]);
+		//precacheMenu(game["menu_callvote"]); //for limit
+		//precacheMenu(game["menu_muteplayer"]); //for limit
 		
 		// ---- back up one folder to access game_summary.menu ----
 		// game summary menu file precache
@@ -33,11 +33,11 @@ init()
 		game["menu_eog_unlock_page1"] = "popup_unlock_page1";
 		game["menu_eog_unlock_page2"] = "popup_unlock_page2";
 		
-		precacheMenu(game["menu_eog_main"]);
-		precacheMenu(game["menu_eog_unlock"]);
-		precacheMenu(game["menu_eog_summary"]);
-		precacheMenu(game["menu_eog_unlock_page1"]);
-		precacheMenu(game["menu_eog_unlock_page2"]);
+		//precacheMenu(game["menu_eog_main"]); //for limit
+		//precacheMenu(game["menu_eog_unlock"]); //for limit
+		//precacheMenu(game["menu_eog_summary"]); //for limit
+		//precacheMenu(game["menu_eog_unlock_page1"]); //for limit
+		//precacheMenu(game["menu_eog_unlock_page2"]); //for limit
 	
 	}
 	else
