@@ -76,6 +76,7 @@ Also delete the **iw_zzz_menu_music.iwd** to get rid of background photo and mus
 * Fix SP maps not working.
 * Fix postions on the menu.
 * Add EB.
+* When spawn rain, switch to farm vision settings to make colors better.
 * Add button to increase player damage to make one shot.
 * Add rpg bullets.
 * Add hud popups when enabling things in the menu.
