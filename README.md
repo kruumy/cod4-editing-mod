@@ -75,6 +75,7 @@ Also delete the **iw_zzz_menu_music.iwd** to get rid of background photo and mus
 * Add rain dvar to give anymap rain.
 * Fix SP maps not working.
 * Fix postions on the menu.
+* add buttons to force pezbot teams
 * Add EB.
 * Add button to increase player damage to make one shot.
 * Add rpg bullets.
