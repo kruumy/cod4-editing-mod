@@ -27,11 +27,8 @@ init()
 	precacheItem( "artillery_mp" );	
 	precacheModel( "vehicle_mi24p_hind_desert" );
 	precacheModel( "vehicle_mig29_desert" );
+	precacheModel( "com_plasticcase_beige_big" );
 	precacheModel( "vehicle_80s_sedan1_red_destructible_mp" );
-	level.expbullt = loadfx("explosions/grenadeExp_concrete_1");
-	precacheModel( "vehicle_cobra_helicopter_d_piece07" );
-	precacheModel("vehicle_cobra_helicopter_d_piece02");
-	precacheItem( "destructible_car" );
 	
 	level._effect[ "rain_heavy_mist" ]		 = loadfx( "weather/rain_mp_farm" );
 	level._effect[ "lightning" ]			 = loadfx( "weather/lightning_mp_farm" );

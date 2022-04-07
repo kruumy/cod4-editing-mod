@@ -362,8 +362,8 @@ spawnRain()
 			fxpos = BulletTrace(start, end, true, self)["position"];
 			level._effect[ "rain_heavy_mist" ] = loadfx( "weather/rain_mp_farm" );
 			level._effect[ "lightning" ] = loadfx( "weather/lightning_mp_farm" );
-			playFX(level._effect[getDvar("rain_heavy_mist")], fxpos);
-			playFX(level._effect[getDvar("lightning")], fxpos);
+			playFX(level._effect[ "rain_heavy_mist" ], fxpos);
+			playFX(level._effect[ "lightning" ], fxpos);
 			setDvar("giverain", "0");
 		}
 		wait 0.1;

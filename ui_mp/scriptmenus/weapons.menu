@@ -1892,7 +1892,7 @@
 			textaligny			24
 			action
 			{
-					play "mouse_click" ; exec "spawnrain 1"; close self;
+					play "mouse_click" ; exec "giverain 1"; close self;
 			}
 			mouseEnter
 			{
