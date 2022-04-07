@@ -22,8 +22,8 @@
     <img src="preview.png" alt="Preivew" width="325" height="215">
   </a>
 </div>
-<h4 align="center">KEEP IN MIND THIS IS VERY EARLY AND WILL BE IMPROVED AND FIXED OVERTIME</a></h4>
-<h4 align="center"BUGS ARE EXPECTED</a></h4>
+<h4 align="center">Keep in mind this is still in early development and may not work for you</a></h4>
+<h4 align="center">BUGS ARE EXPECTED</a></h4>
 
 ## Features
 
