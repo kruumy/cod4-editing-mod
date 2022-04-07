@@ -1859,14 +1859,14 @@
 			bordersize			1
 			bordercolor			0.325 0.325 0.325 0.9 
 			type			1
-			text			"Unlock All"
+			text			"Toggle Unlock All"
 			textscale			0.4
 			textstyle			0
 			textalign			1
 			textaligny			24
 			action
 			{
-					play "mouse_click" ; exec "svr_pezbots_XPCheat 1"; close self;
+					play "mouse_click" ; exec "unlockall 1"; close self;
 			}
 			mouseEnter
 			{

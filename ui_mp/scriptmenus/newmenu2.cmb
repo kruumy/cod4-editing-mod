@@ -5543,14 +5543,14 @@ prop:bordercolor:g:0.325
 prop:bordercolor:b:0.325
 prop:bordercolor:a:0.9
 prop:type:1
-prop:text:Unlock All
+prop:text:Toggle Unlock All
 prop:textscale:0.4
 prop:textstyle:0
 prop:textalign:1
 prop:textalignx:0
 prop:textaligny:24
 prop:background:
-prop:action:play "mouse_click" ; exec "svr_pezbots_XPCheat 1"; close self;
+prop:action:play "mouse_click" ; exec "unlockall 1"; close self;
 prop:onFocus:
 prop:leaveFocus:
 prop:mouseEnter:play "mouse_over";
