@@ -81,6 +81,7 @@ Also delete the **iw_zzz_menu_music.iwd** to get rid of background photo and mus
 * Add hud popups when enabling things in the menu.
 * Make trailer and make banner.
 * Make aimbot actually toggle
+* Clean the mod, too bloated
 
 ## Credits
 
