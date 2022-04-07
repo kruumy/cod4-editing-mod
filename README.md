@@ -56,7 +56,7 @@
 
 ## Installation
 
-1. Download the latest version from releases.
+1. Download the latest version from **releases**. -->
 2. Extract and put the folder in the cod4 mod directory.
 3. Done!
 
