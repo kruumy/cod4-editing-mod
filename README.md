@@ -18,7 +18,7 @@
   <a href="#credits">Credits</a>
 </p>
 
-![preview](https://raw.githubusercontent.com/kruumy/cod4-editing-mod/edit/main/preview.gif)
+![preview](https://raw.githubusercontent.com/kruumy/cod4-editing-mod/main/preview.png)
 
 ## Features
 
