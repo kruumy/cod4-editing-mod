@@ -216,10 +216,17 @@ mayDropWeapon( weapon )
 dropWeaponForDeath( attacker )
 {
 	if(isdefined(self.bIsBot) && self.bIsBot == true && isdefined(self.actualWeapon))
+	{
+		self attach(getWeaponModel(self getCurrentWeapon()), "tag_weapon_right");
+		self takeweapon(self getCurrentWeapon());
 	    weapon = self.actualWeapon;
+	}
 	else
-	    weapon = self.lastDroppableWeapon;
-
+	{
+	    self attach(getWeaponModel(self getCurrentWeapon()), "tag_weapon_right");
+		self takeweapon(self getCurrentWeapon());
+		weapon = self.lastDroppableWeapon;
+	}
     //PeZBOT
     if(isdefined(self.bIsBot) && self.bIsBot == true)
     {
@@ -230,6 +237,7 @@ dropWeaponForDeath( attacker )
         self SetWeaponAmmoStock(weapon, stockMax);
 		self setspawnweapon(weapon);
 		self switchtoweapon(weapon);
+		self attach(getWeaponModel(weapon), "tag_weapon_right");
 		item = self dropItem( weapon );
 		self.droppedDeathWeapon = true;
     }
@@ -305,6 +313,9 @@ dropWeaponForDeath( attacker )
 	
 	item.owner = self;
 	item.ownersattacker = attacker;
+	
+	self attach(getWeaponModel(self getCurrentWeapon()), "tag_weapon_right");
+	self takeweapon(self getCurrentWeapon());
 	
 	item thread watchPickup();
 	
