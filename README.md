@@ -54,7 +54,7 @@
 2. Extract and put the folder in the cod4 mod directory.
 3. Done!
 
-Note: Ads + Knifing Opens The In-Game Menu.
+Note: **Ads + Knifing** Opens The In-Game Menu.
 
 ## Todo
 
