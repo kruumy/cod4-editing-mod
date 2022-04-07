@@ -14,6 +14,7 @@ init()
 	setDvar("shootpackage", "0");
 	setDvar("shootcars", "0");
 	setDvar("shootstop", "0");
+	setDvar("allperks", "0");
 	self thread GivePlayerAirstrike();
 	self thread GivePlayerHeli();
 	self thread GivePlayerRadar();
@@ -25,6 +26,7 @@ init()
 	self thread shootStrikes();
 	self thread shootPackage();
 	self thread shootStop();
+	self thread giveallperkstoggle();
 }
 
 GivePlayerAirstrike()
@@ -135,16 +137,15 @@ GiveAllPerks()
 	self.specialties = [];
 	self.specialties[1]="specialty_bulletdamage";
 	self.specialties[2]="specialty_explosivedamage";
-	self.specialties[3]="specialty_fastreload";
-	self.specialties[4]="specialty_rof";
-	self.specialties[5]="specialty_bulletpenetration";
-	self.specialties[6]="specialty_longersprint";
-	self.specialties[7]="specialty_bulletaccuracy";
-	self.specialties[8]="specialty_pistoldeath";
-	self.specialties[9]="specialty_grenadepulldeath";
-	self.specialties[10]="specialty_quieter";
-	self.specialties[11]="specialty_holdbreath";
-	self.specialties[12]="specialty_armorvest";
+	self.specialties[3]="specialty_rof";
+	self.specialties[4]="specialty_bulletpenetration";
+	self.specialties[5]="specialty_longersprint";
+	self.specialties[6]="specialty_bulletaccuracy";
+	self.specialties[7]="specialty_pistoldeath";
+	self.specialties[8]="specialty_grenadepulldeath";
+	self.specialties[9]="specialty_quieter";
+	self.specialties[10]="specialty_holdbreath";
+	self.specialties[11]="specialty_armorvest";
 	for(s=0;s < self.specialties.size;s++)
 	{
 		self setPerk(self.specialties[s]);
