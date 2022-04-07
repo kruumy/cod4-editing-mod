@@ -31,6 +31,7 @@
 * MW2 Death Money FX 
 * Quick Devmap Menu
 * Lots of Custom Weapons
+* Works With Old Demos
 * Give Killstreak Dvar
 * Single-Player Map Mod
 * In-game Player Model Changer 
@@ -84,5 +85,7 @@ This mod is a collection of many mods found from various sources and my own modi
 
 - [soon](omg.com)
 ---
+
+**Please contact me if you find any bugs or have any suggestions. Twitter:@kruumy Discord:kruumy#9443**
 
 
