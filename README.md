@@ -76,13 +76,13 @@ Also delete the **iw_zzz_menu_music.iwd** to get rid of background photo and mus
 * Add rain dvar to give anymap rain.
 * Fix SP maps not working.
 * Fix postions on the menu.
-* Add buttons to force pezbot teams
+* ~~Add buttons to force pezbot teams~~
 * Add EB.
-* Add button to increase player damage to make one shot.
+* ~~Add button to increase player damage to make one shot.~~
 * Add rpg bullets.
 * Add hud popups when enabling things in the menu.
 * Make trailer and make banner.
-* Make aimbot actually toggle
+* Make the toggles actually toggle and not just enable
 * Clean the mod, too bloated
 
 ## Credits
