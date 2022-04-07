@@ -17,8 +17,11 @@
   <a href="#todo">Todo</a> •
   <a href="#credits">Credits</a>
 </p>
-
-![preview](https://raw.githubusercontent.com/kruumy/cod4-editing-mod/main/preview.png)
+<div align="center">
+  <a href="https://github.com/kruumy/cod4-editing-mod">
+    <img src="preview.png" alt="Preivew" width="325" height="215">
+  </a>
+</div>
 
 ## Features
 
