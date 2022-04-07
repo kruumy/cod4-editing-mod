@@ -61,7 +61,7 @@
 3. Done!
 
 Note: **Ads + Knifing** Opens The In-Game Menu.
-Also delete the iw_zzz_menu_music.iwd to get rid of background photo and music.
+Also delete the **iw_zzz_menu_music.iwd** to get rid of background photo and music.
 
 ## Todo
 
