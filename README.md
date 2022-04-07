@@ -89,7 +89,14 @@ Also delete the **iw_zzz_menu_music.iwd** to get rid of background photo and mus
 
 This mod is a collection of many mods found from various sources and my own modifications:
 
-- [soon](omg.com)
+- Shout out to [pool](https://twitter.com/imopool718?s=21&t=q9WWY5n9WnWUmxNF_LifiQ) for being super helpful and making tutorials for me on porting anims and models!
+- [Menu Builder](link)
+- [Pezbots](link)
+- [Mw2 Money fx](link)
+- [Drop Gun](link)
+- [Azery Bot Mod](link)
+- [finishing later](link)
+
 ---
 
 **Please contact me if you find any bugs or have any suggestions.**
