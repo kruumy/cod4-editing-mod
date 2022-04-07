@@ -42,7 +42,7 @@
 * Killcams and Final Killcams
 * Aimbot & EB
 * Weapons Drop Gun Mod
-* Avery's Bot Mod
+* Azery's Bot Mod
 * And More!
 
 ## Support
@@ -69,7 +69,7 @@ Also delete the **iw_zzz_menu_music.iwd** to get rid of background photo and mus
 ## Todo
 
 * ~~Fix killstreaks sometimes not working.~~
-* ~~Add drop weapons death mod.~~
+* Make drop weapons mod work on pezbots
 * Fix leg bug on death anims.
 * Replace heli model with mw3 heli model.
 * Add more custom models to the change model menu.
