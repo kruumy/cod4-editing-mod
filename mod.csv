@@ -919,6 +919,8 @@ material,fx_maney
 xmodel,fx_money_susel
 
 fx,impacts/flesh_hit_body_fatal_exit
+fx,weather/lightning_mp_farm
+fx,weather/rain_mp_farm
 sound,promod,,all_mp
 sound,dsr50,,all_mp
 sound,l96a1,,all_mp
