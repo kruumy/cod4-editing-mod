@@ -45,9 +45,12 @@
 
 | Name | Status |
 | --- | --- |
-| COD4 1.7 | No | *Exceeds the 128 weapons asset limit. Probably could work if u delete some of the custom weapons but just use iw3xo anyway it's better*
+| COD4 1.7 | No |
 | [IW3xo](https://github.com/xoxor4d/iw3xo-dev) | Yes |
 | [COD4x](https://cod4x.me/) | ? |
+
+*Stock cod4 exceeds the 128 weapons asset limit. Probably could work if u delete some of the custom weapons but just use iw3xo anyway it's better*
+
 ## Installation
 
 1. Download the latest version from releases.
