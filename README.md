@@ -92,6 +92,8 @@ This mod is a collection of many mods found from various sources and my own modi
 - [soon](omg.com)
 ---
 
-**Please contact me if you find any bugs or have any suggestions. Twitter: @kruumy Discord: kruumy#9443**
+**Please contact me if you find any bugs or have any suggestions.**
+# Twitter: @kruumy
+# Discord: kruumy#9443
 
 
