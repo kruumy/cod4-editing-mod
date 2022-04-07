@@ -100,7 +100,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_crash"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_crash"
 			}
 			mouseEnter
 			{
@@ -122,7 +122,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_backlot"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_backlot"
 			}
 			mouseEnter
 			{
@@ -144,7 +144,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_bloc"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_bloc"
 			}
 			mouseEnter
 			{
@@ -166,7 +166,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_bog"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_bog"
 			}
 			mouseEnter
 			{
@@ -188,7 +188,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_broadcast"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_broadcast"
 			}
 			mouseEnter
 			{
@@ -210,7 +210,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_carentan"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_carentan"
 			}
 			mouseEnter
 			{
@@ -232,7 +232,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_cargoship"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_cargoship"
 			}
 			mouseEnter
 			{
@@ -254,7 +254,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_citystreets"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_citystreets"
 			}
 			mouseEnter
 			{
@@ -276,7 +276,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_convoy"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_convoy"
 			}
 			mouseEnter
 			{
@@ -298,7 +298,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_crash_snow"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_crash_snow"
 			}
 			mouseEnter
 			{
@@ -320,7 +320,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_creek"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_creek"
 			}
 			mouseEnter
 			{
@@ -342,7 +342,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_crossfire"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_crossfire"
 			}
 			mouseEnter
 			{
@@ -364,7 +364,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_farm"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_farm"
 			}
 			mouseEnter
 			{
@@ -386,7 +386,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_killhouse"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_killhouse"
 			}
 			mouseEnter
 			{
@@ -408,7 +408,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_overgrown"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_overgrown"
 			}
 			mouseEnter
 			{
@@ -430,7 +430,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_pipeline"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_pipeline"
 			}
 			mouseEnter
 			{
@@ -452,7 +452,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_shipment"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_shipment"
 			}
 			mouseEnter
 			{
@@ -474,7 +474,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_showdown"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_showdown"
 			}
 			mouseEnter
 			{
@@ -496,7 +496,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_strike"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_strike"
 			}
 			mouseEnter
 			{
@@ -518,7 +518,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_test"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_test"
 			}
 			mouseEnter
 			{
@@ -540,7 +540,7 @@
 			textaligny			22
 			action
 			{
-					play "mouse_click" ; exec "scr_dm_timelimit 30;scr_dm_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype dm;devmap mp_vacant"
+					play "mouse_click" ; exec "scr_war_timelimit 60;scr_war_scorelimit 10000;scr_game_matchstarttime 0;scr_game_playerwaittime 0;scr_game_hardpoints 1;g_gametype war;devmap mp_vacant"
 			}
 			mouseEnter
 			{

@@ -1567,6 +1567,58 @@
 					play "mouse_over";
 			}
 		}
+		itemdef
+		{
+			name			"5axisbot"
+			rect			-66 11 219 25 2 2 
+			style			1
+			backcolor			1 1 1 0.05 
+			forecolor			0 0.875 0.678 1 
+			visible			1
+			border			2
+			bordersize			1
+			bordercolor			0.325 0.325 0.325 0.9 
+			type			1
+			text			"Add 5 Axis Bots"
+			textscale			0.4
+			textstyle			0
+			textalign			1
+			textaligny			24
+			action
+			{
+					play "mouse_click" ; exec "svr_pezbots_modelchoice 1;svr_pezbots_useperks 0;svr_pezbots_skill 0;svr_pezbots_axis 5"; close self;
+			}
+			mouseEnter
+			{
+					play "mouse_over";
+			}
+		}
+		itemdef
+		{
+			name			"5alliesbot"
+			rect			-66 35 219 25 2 2 
+			style			1
+			backcolor			1 1 1 0.05 
+			forecolor			0 0.875 0.678 1 
+			visible			1
+			border			2
+			bordersize			1
+			bordercolor			0.325 0.325 0.325 0.9 
+			type			1
+			text			"Add 5 Allies Bots"
+			textscale			0.4
+			textstyle			0
+			textalign			1
+			textaligny			24
+			action
+			{
+					play "mouse_click" ; exec "svr_pezbots_modelchoice 1;svr_pezbots_useperks 0;svr_pezbots_skill 0;svr_pezbots_Allies 5"; close self;
+			}
+			mouseEnter
+			{
+					play "mouse_over";
+			}
+		}
 	}
 	menuDef
 	{
@@ -1969,18 +2021,18 @@
 			backcolor			1 1 1 0.05 
 			forecolor			0 0.875 0.678 1 
 			visible			1
-			border			2
+			border			1
 			bordersize			1
 			bordercolor			0.325 0.325 0.325 0.9 
 			type			1
-			text			"Give 'All' Perks"
+			text			"Give All Perks"
 			textscale			0.4
 			textstyle			0
 			textalign			1
 			textaligny			24
 			action
 			{
-					play "mouse_click" ; exec "perk_weapSpreadMultiplier 0;perk_sprintMultiplier 1.5;perk_bulletDamage 50"; close self;
+					play "mouse_click" ; exec "allperks 1;perk_weapSpreadMultiplier 0;perk_sprintMultiplier 1.2"; close self;
 			}
 			mouseEnter
 			{
