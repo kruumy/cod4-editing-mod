@@ -74,8 +74,10 @@
 * Fix leg bug on death anims.
 * Replace heli model with mw3 heli model.
 * Add more custom models to the change model menu.
+* Fix some weird weapon index bug.
 * Fix SP maps not working.
 * Fix postions on the menu.
+* Replace playmodels with mwr playermodels
 * Add EB.
 * Fix killstreaks not always giving. fix precache
 * When spawn rain, switch to farm vision settings to make colors better.
