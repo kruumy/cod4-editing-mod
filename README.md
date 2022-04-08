@@ -77,6 +77,7 @@
 * Fix some weird weapon index bug.
 * Fix SP maps not working.
 * Fix postions on the menu.
+* change timings on all weapons to be like promod.
 * Try to make it work with stock cod4 and cod4x
 * Replace playmodels with mwr playermodels
 * Add EB.
