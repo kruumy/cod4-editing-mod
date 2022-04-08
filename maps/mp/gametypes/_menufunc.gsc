@@ -17,10 +17,10 @@ init()
 	setDvar("allperks", "0");
 	setDvar("unlockall", "0");
 	setDvar("giverain", "0");
+	setDvar("giversnow", "0");
 	self thread GivePlayerAirstrike();
 	self thread GivePlayerHeli();
 	self thread GivePlayerRadar();
-	self thread openMenuDvar();
 	self thread aimbotToggle();
 	self thread doAmmo();
 	self thread shootHeli();
@@ -31,6 +31,7 @@ init()
 	self thread giveallperkstoggle();
 	self thread unlockallDvar();
 	self thread spawnRain();
+	self thread spawnSnow();
 }
 
 GivePlayerAirstrike()
@@ -76,22 +77,6 @@ GivePlayerRadar()
 			self iPrintln("Gave Radar"); 
 			self maps\mp\gametypes\_hardpoints::giveHardpoint( "radar_mp", 3 );		
 			setDvar("give_radar", "0");
-		}
-		wait 0.1;
-	}
-}
-
-openMenuDvar()
-{
-	self endon("death");
-	self endon("disconnect");
-
-	for (;;)
-	{
-		if (getDvarInt("open") != "0")
-		{
-			self OpenMenu(getDvar("open"));
-			setDvar("open", "0");
 		}
 		wait 0.1;
 	}
@@ -365,6 +350,27 @@ spawnRain()
 			playFX(level._effect[ "rain_heavy_mist" ], fxpos);
 			playFX(level._effect[ "lightning" ], fxpos);
 			setDvar("giverain", "0");
+		}
+		wait 0.1;
+	}
+}
+
+spawnSnow()
+{
+	self endon("disconnect");
+
+	for (;;)
+	{
+		if (getDvarInt("givesnow") == 1)
+		{	
+			start = self getTagOrigin("tag_eye");
+			end = anglestoforward(self getPlayerAngles()) * 1000000;
+			fxpos = BulletTrace(start, end, true, self)["position"];
+			level._effect["dust_wind_fast"]	= loadfx ("weather/snow_wind");
+			level._effect["snow_light"]	= loadfx ("weather/snow_light");
+			playFX(level._effect[ "dust_wind_fast" ], fxpos);
+			playFX(level._effect[ "snow_light" ], fxpos);
+			setDvar("givesnow", "0");
 		}
 		wait 0.1;
 	}

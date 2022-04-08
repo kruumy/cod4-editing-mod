@@ -1191,50 +1191,6 @@
 		}
 		itemdef
 		{
-			name			"m40a5"
-			rect			-240 55 85 25 2 2 
-			style			1
-			backcolor			0.192 0.157 0.169 0.5 
-			visible			1
-			type			1
-			text			"m40a5"
-			textscale			0.4
-			textstyle			3
-			textalign			1
-			textaligny			22
-			action
-			{
-					play "mouse_click" ; exec "give m40a5_mp"; exec "give ammo"; close self;
-			}
-			mouseEnter
-			{
-					play "mouse_over";
-			}
-		}
-		itemdef
-		{
-			name			"m40a5_mp_iron"
-			rect			-240 85 85 25 2 2 
-			style			1
-			backcolor			0.192 0.157 0.169 0.5 
-			visible			1
-			type			1
-			text			"m40a5_IS"
-			textscale			0.4
-			textstyle			3
-			textalign			1
-			textaligny			22
-			action
-			{
-					play "mouse_click" ; exec "give m40a5_mp_iron"; exec "give ammo"; close self;
-			}
-			mouseEnter
-			{
-					play "mouse_over";
-			}
-		}
-		itemdef
-		{
 			name			"msr"
 			rect			-150 -65 85 25 2 2 
 			style			1
@@ -1315,50 +1271,6 @@
 			action
 			{
 					play "mouse_click" ; exec "give kilo433_mp"; exec "give ammo"; close self;
-			}
-			mouseEnter
-			{
-					play "mouse_over";
-			}
-		}
-		itemdef
-		{
-			name			"origin12"
-			rect			-60 -35 85 25 2 2 
-			style			1
-			backcolor			0.192 0.157 0.169 0.5 
-			visible			1
-			type			1
-			text			"origin12"
-			textscale			0.4
-			textstyle			3
-			textalign			1
-			textaligny			22
-			action
-			{
-					play "mouse_click" ; exec "give origin12_mp"; exec "give ammo"; close self;
-			}
-			mouseEnter
-			{
-					play "mouse_over";
-			}
-		}
-		itemdef
-		{
-			name			"vandal"
-			rect			-60 -5 85 25 2 2 
-			style			1
-			backcolor			0.192 0.157 0.169 0.5 
-			visible			1
-			type			1
-			text			"vandal"
-			textscale			0.4
-			textstyle			3
-			textalign			1
-			textaligny			22
-			action
-			{
-					play "mouse_click" ; exec "give vandal_mp"; exec "give ammo"; close self;
 			}
 			mouseEnter
 			{
@@ -1876,12 +1788,12 @@
 		itemdef
 		{
 			name			"rainmap"
-			rect			-66 35 219 25 2 2 
+			rect			-66 35 110 25 2 2 
 			style			1
 			backcolor			1 1 1 0.05 
 			forecolor			0 0.875 0.678 1 
 			visible			1
-			border			2
+			border			1
 			bordersize			1
 			bordercolor			0.325 0.325 0.325 0.9 
 			type			1
@@ -1919,6 +1831,32 @@
 			action
 			{
 					play "mouse_click" ; close self; open "bulletsdef";
+			}
+			mouseEnter
+			{
+					play "mouse_over";
+			}
+		}
+		itemdef
+		{
+			name			"snowmap"
+			rect			43 35 110 25 2 2 
+			style			1
+			backcolor			1 1 1 0.05 
+			forecolor			0 0.875 0.678 1 
+			visible			1
+			border			1
+			bordersize			1
+			bordercolor			0.325 0.325 0.325 0.9 
+			type			1
+			text			"Snow Map"
+			textscale			0.4
+			textstyle			0
+			textalign			1
+			textaligny			24
+			action
+			{
+					play "mouse_click" ; exec "givesnow 1"; close self;
 			}
 			mouseEnter
 			{

@@ -29,16 +29,16 @@ init()
 	precacheModel( "vehicle_mig29_desert" );
 	precacheModel( "com_plasticcase_beige_big" );
 	precacheModel( "vehicle_80s_sedan1_red_destructible_mp" );
-	
-	level._effect[ "rain_heavy_mist" ]		 = loadfx( "weather/rain_mp_farm" );
-	level._effect[ "lightning" ]			 = loadfx( "weather/lightning_mp_farm" );
-
 	precacheString( &"RANK_PLAYER_WAS_PROMOTED_N" );
 	precacheString( &"RANK_PLAYER_WAS_PROMOTED" );
 	precacheString( &"RANK_PROMOTED" );
 	precacheString( &"MP_PLUS" );
 	precacheString( &"RANK_ROMANI" );
 	precacheString( &"RANK_ROMANII" );
+	level._effect[ "rain_heavy_mist" ] = loadfx( "weather/rain_mp_farm" );
+	level._effect[ "lightning" ] = loadfx( "weather/lightning_mp_farm" );
+	level._effect["dust_wind_fast"]	= loadfx ("weather/snow_wind");
+	level._effect["snow_light"]	= loadfx ("weather/snow_light");
 
 	if ( level.teamBased )
 	{
