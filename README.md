@@ -81,8 +81,7 @@
 * change timings on all weapons to be like promod.
 * Try to make it work with stock cod4 and cod4x
 * Replace playmodels with mwr playermodels
-* Add EB.
-* Fix killstreaks not always giving. fix precache
+* ~~Add EB.~~
 * Add button to increase player damage to make one shot.
 * Add rpg bullets.
 * Add hud popups when enabling things in the menu.
