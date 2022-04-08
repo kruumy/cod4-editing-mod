@@ -82,7 +82,6 @@
 * Replace playmodels with mwr playermodels
 * Add EB.
 * Fix killstreaks not always giving. fix precache
-* When spawn rain, switch to farm vision settings to make colors better.
 * Add button to increase player damage to make one shot.
 * Add rpg bullets.
 * Add hud popups when enabling things in the menu.
