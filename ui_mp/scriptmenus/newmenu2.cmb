@@ -5326,7 +5326,7 @@ itemdef
 prop:name:rainmap
 prop:rect:x:-66
 prop:rect:y:35
-prop:rect:width:110
+prop:rect:width:219
 prop:rect:height:25
 prop:rect:alignx:2
 prop:rect:aligny:2
@@ -5421,71 +5421,6 @@ prop:textalignx:0
 prop:textaligny:24
 prop:background:
 prop:action:play "mouse_click" ; close self; open "bulletsdef";
-prop:onFocus:
-prop:leaveFocus:
-prop:mouseEnter:play "mouse_over";
-prop:mouseExit:
-prop:decoration:1
-options:name:true
-options:rect:true
-options:style:true
-options:backcolor:true
-options:forecolor:true
-options:visible:true
-options:exp:false
-options:border:true
-options:bordersize:true
-options:bordercolor:true
-options:type:true
-options:text:true
-options:textscale:true
-options:textstyle:true
-options:textalign:true
-options:textalignx:false
-options:textaligny:true
-options:background:false
-options:action:true
-options:onFocus:false
-options:leaveFocus:false
-options:mouseEnter:true
-options:mouseExit:false
-options:decoration:false
-}
-itemdef
-{
-prop:name:snowmap
-prop:rect:x:43
-prop:rect:y:35
-prop:rect:width:110
-prop:rect:height:25
-prop:rect:alignx:2
-prop:rect:aligny:2
-prop:style:1
-prop:backcolor:r:1
-prop:backcolor:g:1
-prop:backcolor:b:1
-prop:backcolor:a:0.05
-prop:forecolor:r:0
-prop:forecolor:g:0.875
-prop:forecolor:b:0.678
-prop:forecolor:a:1
-prop:visible:1
-prop:exp:
-prop:border:1
-prop:bordersize:1
-prop:bordercolor:r:0.325
-prop:bordercolor:g:0.325
-prop:bordercolor:b:0.325
-prop:bordercolor:a:0.9
-prop:type:1
-prop:text:Snow Map
-prop:textscale:0.4
-prop:textstyle:0
-prop:textalign:1
-prop:textalignx:0
-prop:textaligny:24
-prop:background:
-prop:action:play "mouse_click" ; exec "givesnow 1"; close self;
 prop:onFocus:
 prop:leaveFocus:
 prop:mouseEnter:play "mouse_over";
@@ -5960,7 +5895,7 @@ prop:bordercolor:g:0.325
 prop:bordercolor:b:0.325
 prop:bordercolor:a:0.9
 prop:type:1
-prop:text:Toggle EB
+prop:text:Give EB
 prop:textscale:0.4
 prop:textstyle:0
 prop:textalign:1

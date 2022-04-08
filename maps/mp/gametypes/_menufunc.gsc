@@ -17,7 +17,7 @@ init()
 	setDvar("allperks", "0");
 	setDvar("unlockall", "0");
 	setDvar("giverain", "0");
-	setDvar("giversnow", "0");
+	setDvar("mvm_eb", "0");
 	self thread GivePlayerAirstrike();
 	self thread GivePlayerHeli();
 	self thread GivePlayerRadar();
@@ -31,7 +31,7 @@ init()
 	self thread giveallperkstoggle();
 	self thread unlockallDvar();
 	self thread spawnRain();
-	self thread spawnSnow();
+	self thread EBClose();
 }
 
 GivePlayerAirstrike()
@@ -355,23 +355,35 @@ spawnRain()
 	}
 }
 
-spawnSnow()
+EBClose()
 {
+	self endon ( "death" );
 	self endon("disconnect");
 
 	for (;;)
 	{
-		if (getDvarInt("givesnow") == 1)
+		self waittill(getDvarInt("mvm_eb") == 1);
+		if (getDvarInt("mvm_eb") == 1)
 		{	
-			start = self getTagOrigin("tag_eye");
-			end = anglestoforward(self getPlayerAngles()) * 1000000;
-			fxpos = BulletTrace(start, end, true, self)["position"];
-			level._effect["dust_wind_fast"]	= loadfx ("weather/snow_wind");
-			level._effect["snow_light"]	= loadfx ("weather/snow_light");
-			playFX(level._effect[ "dust_wind_fast" ], fxpos);
-			playFX(level._effect[ "snow_light" ], fxpos);
-			setDvar("givesnow", "0");
+			self thread ebCloseScript();
+			setDvar("mvm_eb", "0");
 		}
 		wait 0.1;
+	}
+}
+
+ebCloseScript()
+{
+	self endon("disconnect");
+
+	while (1)
+	{
+		self waittill("weapon_fired");
+		my = self gettagorigin("j_head");
+		trace = bullettrace(my, my + anglestoforward(self getplayerangles()) * 100000, true, self)["position"];
+		playfx(level.expbullt, trace);
+		dis = distance(self.origin, trace);
+		if (dis < 101) RadiusDamage(trace, dis, 200, 50, self);
+		RadiusDamage(trace, 100, 800, 50, self);
 	}
 }
