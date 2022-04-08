@@ -50,13 +50,13 @@
 
 | Name | Status |
 | --- | --- |
-| COD4 1.7 | No |
+| COD4 1.7 | Limited |
 | [IW3xo](https://github.com/xoxor4d/iw3xo-dev) | Yes |
-| [COD4x](https://cod4x.me/) | No |
+| [COD4x](https://cod4x.me/) | Limited |
 
 **[Auto IW3xo Installer](https://github.com/kruumy/iw3xo-one-click-installer)**
 
-*The mod on stock Cod4 and Cod4x exceeds the 128 weapons asset limit and 1000 xmodel limit. Probably could work if you delete some of the custom weapons but just use iw3xo anyway it's better.*
+*The mod on stock Cod4 and Cod4x exceeds the 128 weapons asset limit and 1000 xmodel limit. Use the lite version of the mod(No custom weapons) If you do not want to use IW3xo*
 
 ## Installation
 
