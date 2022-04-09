@@ -80,8 +80,16 @@
 * Replace playmodels with mwr playermodels
 * Add button to increase player damage to make one shot.
 * Add rpg bullets.
+* Add Money Fountain.
+* Add multi jumps
+* Add flyable vehicles
+* Add stunt plane
+* Add some custom killstreaks
+* Add set visions menu
+* Add save & load positions
 * Add hud popups when enabling things in the menu.
 * Make trailer and make banner.
+* Convert menu to gsc not .menu 
 * Make the toggles actually toggle and not just enable
 * Clean the mod, too bloated
 
