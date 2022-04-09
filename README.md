@@ -56,8 +56,6 @@
 
 **[Auto IW3xo Installer](https://github.com/kruumy/iw3xo-one-click-installer)**
 
-*The mod on stock Cod4 and Cod4x exceeds the 128 weapons asset limit and 1000 xmodel limit. Use the lite version of the mod(No custom weapons) If you do not want to use IW3xo*
-
 ## Installation
 
 1. Download the latest version from **releases**. -->
@@ -75,13 +73,11 @@
 * Replace heli model with mw3 heli model.
 * Add more custom models to the change model menu.
 * Fix some weird weapon index bug.
-* Fix SP maps not working.
 * Fix postions on the menu.
 * Have congruent name for all dvars like mvm_
 * change timings on all weapons to be like promod.
 * Try to make it work with stock cod4 and cod4x
 * Replace playmodels with mwr playermodels
-* ~~Add EB.~~
 * Add button to increase player damage to make one shot.
 * Add rpg bullets.
 * Add hud popups when enabling things in the menu.
