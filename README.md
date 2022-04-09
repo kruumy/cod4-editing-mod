@@ -63,7 +63,6 @@
 3. Done!
 
 * Note: **Ads + Knifing** Opens The In-Game Menu.
-* Also delete the **iw_zzz_menu_music.iwd** to get rid of background photo and music.
 * Sometimes giving a weapon or spawning while the demo is recording will crash the demo at that time. Make sure to stop record and rerecord between.
 
 ## Todo
