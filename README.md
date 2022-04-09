@@ -88,7 +88,7 @@
 * Add save & load positions
 * **Add hud popups when enabling things in the menu.**
 * Make trailer and make banner.
-* Convert menu to gsc not .menu 
+* **Convert menu to gsc not .menu **
 * **Make the toggles actually toggle and not just enable**
 * Clean the mod, too bloated
 
