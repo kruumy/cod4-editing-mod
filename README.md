@@ -73,12 +73,12 @@
 * Add more custom models to the change model menu.
 * Fix some weird weapon index bug.
 * Fix postions on the menu.
-* Have congruent name for all dvars like mvm_
+* **Have congruent name for all dvars like mvm_**
 * change timings on all weapons to be like promod.
 * Try to make it work with stock cod4 and cod4x
 * Replace playmodels with mwr playermodels
-* Add button to increase player damage to make one shot.
-* Add rpg bullets.
+* **Add button to increase player damage to make one shot.**
+* **Add rpg bullets.**
 * Add Money Fountain.
 * Add multi jumps
 * Add flyable vehicles
@@ -86,10 +86,10 @@
 * Add some custom killstreaks
 * Add set visions menu
 * Add save & load positions
-* Add hud popups when enabling things in the menu.
+* **Add hud popups when enabling things in the menu.**
 * Make trailer and make banner.
 * Convert menu to gsc not .menu 
-* Make the toggles actually toggle and not just enable
+* **Make the toggles actually toggle and not just enable**
 * Clean the mod, too bloated
 
 ## Credits
