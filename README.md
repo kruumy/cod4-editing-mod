@@ -62,7 +62,7 @@
 2. Extract and put the folder in the cod4 mod directory.
 3. Done!
 
-* Note: **Ads + Knifing** Opens The In-Game Menu.
+* Note: **Special Grenade Button** Opens The In-Game Menu. (Usually "4")
 * Sometimes giving a weapon or spawning while the demo is recording will crash the demo at that time. Make sure to stop record and rerecord between.
 
 ## Todo
