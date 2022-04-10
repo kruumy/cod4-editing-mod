@@ -1,26 +1,18 @@
 #include common_scripts\utility;
 #include maps\mp\gametypes\_hud_util;
 
-
 init()
 {
 	level.scoreInfo = [];
 	level.rankTable = [];
 
 	precacheModel("fx_money_susel");
-	loadfx("impacts/flesh_hit_body_fatal_exit");
+	level._effect[ "money" ] = loadfx("impacts/flesh_hit_body_fatal_exit");
 	precacheShader("fx_maney");	
 	precacheShader("white");
 	precacheMenu("weapons");
 	precacheMenu("stockweap");
-	precacheMenu("mainkrum");
 	precacheMenu("customweap");
-	precacheMenu("weapdef");
-	precacheMenu("botdef");
-	precacheMenu("streakdef");
-	precacheMenu("miscdef");
-	precacheMenu("playerdef");
-	precacheMenu("bulletsdef");
 	precacheItem( "radar_mp" );
 	precacheItem( "airstrike_mp" );
 	precacheItem( "helicopter_mp" );
@@ -37,8 +29,10 @@ init()
 	precacheString( &"RANK_ROMANII" );
 	level._effect[ "rain_heavy_mist" ] = loadfx( "weather/rain_mp_farm" );
 	level._effect[ "lightning" ] = loadfx( "weather/lightning_mp_farm" );
-	level._effect["dust_wind_fast"]	= loadfx ("weather/snow_wind");
-	level._effect["snow_light"]	= loadfx ("weather/snow_light");
+
+	precacheModel( "projectile_m203grenade" );
+	precacheModel( "projectile_cbu97_clusterbomb" );
+	precacheModel( "projectile_hellfire_missile" );
 
 	if ( level.teamBased )
 	{
@@ -338,10 +332,9 @@ onJoinedSpectators()
 onPlayerSpawned()
 {
 	self endon("disconnect");
-	self thread maps\mp\gametypes\_menufunc::init();
-	self thread maps\mp\gametypes\_createmenu::init();
 	self thread maps\mp\gametypes\_bots::SpawnBotsActivate();
 	self thread maps\mp\gametypes\_menus::init();
+	self thread maps\mp\gametypes\_createmenu::onPlayerSpawned();
 	for(;;)
 	{
 		self waittill("spawned_player");
