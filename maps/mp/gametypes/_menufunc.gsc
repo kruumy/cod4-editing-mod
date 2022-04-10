@@ -260,13 +260,13 @@ unlockAll()
 
 	if (!isDefined(self.unlockall) || self.unlockall == false)
 	{
-		setclientDvar("svr_pezbots_XPCheat", "1");
+		self setclientDvar("svr_pezbots_XPCheat", "1");
 		self TextME(self,"Unlocking All");
 		self.unlockall = true;
 	}
 	else if (self.unlockall == true)
 	{
-		setclientDvar("svr_pezbots_XPCheat", "0");
+		self setclientDvar("svr_pezbots_XPCheat", "0");
 		self TextME(self,"Stopped Unlocking All");
 		self.unlockall = false;
 	}
