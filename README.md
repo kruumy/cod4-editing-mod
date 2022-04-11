@@ -76,6 +76,7 @@
 * Add some custom killstreaks
 * Make it impossible to run quickstart twice. check if ran=true before
 * Add set visions menu
+* Find what dvar gets rid of xp score in main
 * Add save & load positions
 * Make trailer and make banner.
 * Clean the mod, too bloated
