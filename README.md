@@ -73,6 +73,8 @@
 * change timings on all weapons to be like promod.
 * Replace playmodels with mwr playermodels
 * **Add rpg bullets.**
+* add mvm_gopro
+* Add clear bodies
 * Add some custom killstreaks
 * Make it impossible to run quickstart twice. check if ran=true before
 * Add set visions menu
