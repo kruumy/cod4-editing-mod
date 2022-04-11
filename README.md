@@ -76,6 +76,7 @@
 * add mvm_gopro
 * Add clear bodies
 * dont give fast switch perk
+* fix weapon index bug
 * Add some custom killstreaks
 * Make it impossible to run quickstart twice. check if ran=true before
 * Add set visions menu
