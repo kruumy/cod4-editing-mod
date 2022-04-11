@@ -73,7 +73,6 @@
 * change timings on all weapons to be like promod.
 * Replace playmodels with mwr playermodels
 * **Add rpg bullets.**
-* add mvm_gopro
 * Add clear bodies
 * dont give fast switch perk
 * fix weapon index bug
