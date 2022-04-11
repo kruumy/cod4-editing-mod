@@ -75,6 +75,7 @@
 * **Add rpg bullets.**
 * add mvm_gopro
 * Add clear bodies
+* dont give fast switch perk
 * Add some custom killstreaks
 * Make it impossible to run quickstart twice. check if ran=true before
 * Add set visions menu
