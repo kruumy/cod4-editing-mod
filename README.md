@@ -79,6 +79,7 @@
 * fix weapon index bug
 * add countdown to the devmap menu
 * Add some custom killstreaks
+* make give ammo work and auto give ammo when reload
 * Make it impossible to run quickstart twice. check if ran=true before
 * Add set visions menu
 * Find what dvar gets rid of xp score in main
