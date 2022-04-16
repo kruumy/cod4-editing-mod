@@ -76,6 +76,7 @@
 * Add clear bodies
 * dont give fast switch perk
 * fix weapon index bug
+* add countdown to the devmap menu
 * Add some custom killstreaks
 * Make it impossible to run quickstart twice. check if ran=true before
 * Add set visions menu
