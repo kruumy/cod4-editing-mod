@@ -6,9 +6,8 @@
 
 <h4 align="center">The Best Cod4 Mod For Faking Frags and Editing</a>!</h4>
 <div align="center">
-  <p align="center">
-<a href="https://youtube.com/kruumy"><strong>Watch The Trailer »</strong></a>
-   </p>
+  <a href="https://github.com/kruumy/cod4-editing-mod/releases"><img src="https://img.shields.io/github/v/release/kruumy/cod4-editing-mod?label=Latest%20version&style=flat-square"></a>
+  <a href="https://paypal.me/JPauls281"><img src="https://img.shields.io/badge/Donate-Paypal-orange?style=flat-square"></a>
 </div>
 <p align="center">
   <a href="#features">Features</a> •
