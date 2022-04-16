@@ -74,6 +74,7 @@
 * Replace playmodels with mwr playermodels
 * **Add rpg bullets.**
 * Add clear bodies
+* change buttons to open menu
 * dont give fast switch perk
 * fix weapon index bug
 * add countdown to the devmap menu
