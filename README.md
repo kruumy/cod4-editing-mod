@@ -53,6 +53,8 @@
 | [IW3xo](https://github.com/xoxor4d/iw3xo-dev) | Yes |
 | [COD4x](https://cod4x.me/) | Limited |
 
+Use lite version if you do not want to use IW3xo.
+
 **[Auto IW3xo Installer](https://github.com/kruumy/iw3xo-one-click-installer)**
 
 ## Installation
