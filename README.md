@@ -50,11 +50,9 @@
 
 | Name | Status |
 | --- | --- |
-| COD4 1.7 | Limited |
+| COD4 1.7 | No |
 | [IW3xo](https://github.com/xoxor4d/iw3xo-dev) | Yes |
-| [COD4x](https://cod4x.me/) | Limited |
-
-Use lite version if you do not want to use IW3xo.
+| [COD4x](https://cod4x.me/) | No |
 
 **[Auto IW3xo Installer](https://github.com/kruumy/iw3xo-one-click-installer)**
 
@@ -88,6 +86,7 @@ Use lite version if you do not want to use IW3xo.
 * Add save & load positions
 * Make trailer and make banner.
 * Clean the mod, too bloated
+* get rid of custom gloves
 
 ## Credits
 
