@@ -1,0 +1,15 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,conversion
+
+weap_bf4_57_fire_plr,,weapons/bf4_57/bf3_m9_fire_plr.wav,0.9,1,max,1,1,5000,,local,,,,0.85,,,,,weapon2,,,,
+weap_bf4_57_fire_npc,,weapons/bf4_57/bf3_m9_fire_npc.wav,0.8,1,wpnai,1,1,35,13780,weapon,,,,0.7,all_mp,,,,weapon4
+weap_p2011_fire_plr,,weapons/bf4_57/p2011_fire.wav,0.9,1,max,1.01,1.01,5000,,local,,,,0.85,,,,,weapon2,,,,
+
+
+bf4_57_clipout,,weapons/bf4_57/bf4_pistol_mag_out.wav,1,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+bf4_57_clipin,,weapons/bf4_57/bf4_pistol_mag_in.wav,1,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+bf4_57_slide_back,,weapons/bf4_57/bf4_pistol_slide_back.wav,0.535,0.5361,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+bf4_57_slide_forward,,weapons/bf4_57/bf4_glock_slide_forward.wav,0.535,0.5361,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+
+fly_j007_p226_mag_out,,weapons/bf4_57/j007_p226_mag_out.wav,1,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+fly_j007_p226_mag_up,,weapons/bf4_57/j007_p226_mag_up.wav,1,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
+fly_j007_p226_mag_in,,weapons/bf4_57/j007_p226_mag_in.wav,1,1,wpnplyr,1,1,7,500,reload2d,,,,0.85,,,,,weapon2,
