@@ -14,15 +14,15 @@ pb_death_run_forward_crumple = fall, rollonground
 pb_death_run_left = bo2,shieldbash_back
 pb_death_run_onfront = mw2, leg_kickup
 pb_death_run_right = bo2, arms behind
-pb_death_run_stumble = bo2, flyback explode
+pb_death_run_stumble = fall to knees, look at hands
 
 pb_stand_death_frontspin = fast_360spin
-pb_stand_death_headchest_topple = bo2, godlike standexplosion
+pb_stand_death_headchest_topple = fall, rollonground
 pb_stand_death_head_collapse = mw3, hands on face
 pb_stand_death_legs = mw2,shotty rotate
-pb_stand_death_lowerback = mw2, leg_kickup
+pb_stand_death_lowerback = aw, kneetoground
 pb_stand_death_neckdeath = mw2, leg_kickup
 pb_stand_death_neckdeath_thrash = hit in shoulder, stand, rotate
-pb_stand_death_nervedeath = mw2,slowfall
+pb_stand_death_nervedeath = fall, rollonground
 pb_stand_death_spin = bo2,shieldbash_back 
-pb_laststand_idle - bo1 goto laststand anim
+pb_laststand_idle - aw, kneetogroundflop
