@@ -626,6 +626,28 @@
 		}
 		itemdef
 		{
+			name			"Deagle Akimbo"
+			rect			120 -60 85 25 2 2 
+			style			1
+			backcolor			0.192 0.157 0.169 0.5 
+			visible			1
+			type			1
+			text			"DeagleAkimbo"
+			textscale			0.4
+			textstyle			3
+			textalign			1
+			textaligny			22
+			action
+			{
+					play "mouse_click" ; exec "give deserteagleakimbo_mp";  exec "give ammo"; close self;
+			}
+			mouseEnter
+			{
+					play "mouse_over";
+			}
+		}
+		itemdef
+		{
 			name			"RPG"
 			rect			120 90 85 25 2 2 
 			style			1
@@ -649,7 +671,7 @@
 		itemdef
 		{
 			name			"Colt45"
-			rect			120 -60 85 25 2 2 
+			rect			120 -30 85 25 2 2 
 			style			1
 			backcolor			0.192 0.157 0.169 0.5 
 			visible			1
@@ -671,7 +693,7 @@
 		itemdef
 		{
 			name			"USP"
-			rect			120 -30 85 25 2 2 
+			rect			120 0 85 25 2 2 
 			style			1
 			backcolor			0.192 0.157 0.169 0.5 
 			visible			1
@@ -693,7 +715,7 @@
 		itemdef
 		{
 			name			"M92"
-			rect			120 0 85 25 2 2 
+			rect			120 30 85 25 2 2 
 			style			1
 			backcolor			0.192 0.157 0.169 0.5 
 			visible			1
