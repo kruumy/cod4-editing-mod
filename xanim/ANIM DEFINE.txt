@@ -1,28 +1,27 @@
-pb_prone_death_quickdeath = bo2,pronedeath
+pb_prone_death_quickdeath = waw,pronedeath
 
-pb_crouchrun_death_crumple = bo1 goto laststand anim
+pb_crouchrun_death_crumple = waw,flybackcrouch
 pb_crouchrun_death_drop = mw2, leg_kickup
 
 pb_crouch_death_clutchchest = fall, rollonground
 pb_crouch_death_falltohands = mw2, leg_kickup
-pb_crouch_death_flip = bo2,cheadshotfront
+pb_crouch_death_flip = waw,flybackcrouch
 pb_crouch_death_fetal = mw3, hands on face
 pb_crouch_death_headshot_front = fall to knees, look at hands
 
-pb_death_run_back = mw3, hands on face
+pb_death_run_back = waw,flybackcrouch
 pb_death_run_forward_crumple = fall, rollonground
-pb_death_run_left = bo2,shieldbash_back
+pb_death_run_left = hit in shoulder, stand, rotate
 pb_death_run_onfront = mw2, leg_kickup
-pb_death_run_right = bo2, arms behind
-pb_death_run_stumble = fall to knees, look at hands
+pb_death_run_right = waw,flybackcrouch
+pb_death_run_stumble = cod4, run stumble
 
 pb_stand_death_frontspin = fast_360spin
-pb_stand_death_headchest_topple = fall, rollonground
+pb_stand_death_headchest_topple = waw,flybackcrouch
 pb_stand_death_head_collapse = mw3, hands on face
-pb_stand_death_legs = mw2,shotty rotate
+pb_stand_death_legs = cod4, run stumble
 pb_stand_death_lowerback = aw, kneetoground
 pb_stand_death_neckdeath = mw2, leg_kickup
 pb_stand_death_neckdeath_thrash = hit in shoulder, stand, rotate
-pb_stand_death_nervedeath = fall, rollonground
-pb_stand_death_spin = bo2,shieldbash_back 
-pb_laststand_idle - aw, kneetogroundflop
+pb_stand_death_nervedeath = bo1 blowback
+pb_stand_death_spin = bo1, gotolaststand

@@ -736,6 +736,28 @@
 		}
 		itemdef
 		{
+			name			"DAkimboS"
+			rect			120 60 85 25 2 2 
+			style			1
+			backcolor			0.192 0.157 0.169 0.5 
+			visible			1
+			type			1
+			text			"DAkimboS"
+			textscale			0.4
+			textstyle			3
+			textalign			1
+			textaligny			22
+			action
+			{
+					play "mouse_click" ; exec "give deserteagleakimbosilencer_mp";  exec "give ammo"; close self;
+			}
+			mouseEnter
+			{
+					play "mouse_over";
+			}
+		}
+		itemdef
+		{
 			name			"ak74ureflex"
 			rect			-150 -90 85 25 2 2 
 			style			1
