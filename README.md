@@ -72,21 +72,15 @@
 * Replace heli model with mw3 heli model.
 * change timings on all weapons to be like promod.
 * Replace playmodels with mwr playermodels
-* **Add rpg bullets.**
 * Add clear bodies
 * change buttons to open menu
 * dont give fast switch perk
-* fix weapon index bug
 * add countdown to the devmap menu
 * Add some custom killstreaks
 * make give ammo work and auto give ammo when reload
-* Make it impossible to run quickstart twice. check if ran=true before
 * Add set visions menu
 * Find what dvar gets rid of xp score in main
 * Add save & load positions
-* Make trailer and make banner.
-* Clean the mod, too bloated
-* get rid of custom gloves
 
 ## Credits
 
