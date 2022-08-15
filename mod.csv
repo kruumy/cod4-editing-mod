@@ -26,8 +26,6 @@ xanim,pb_death_run_left
 xanim,pb_death_run_onfront
 xanim,pb_death_run_right
 xanim,pb_death_run_stumble
-xanim,pb_laststand_idle
-xanim,pb_prone_death_quickdeath
 xanim,pb_stand_death_frontspin
 xanim,pb_stand_death_headchest_topple
 xanim,pb_stand_death_head_collapse
@@ -596,8 +594,6 @@ rawfile,maps/mp/gametypes/_perplayer.gsc
 rawfile,maps/mp/gametypes/_rank.gsc
 rawfile,maps/mp/gametypes/_teams.gsc
 rawfile,maps/mp/gametypes/_weapons.gsc
-rawfile,mp/playeranim.script
-rawfile,mp/playeranimtypes.txt
 menufile,ui_mp/cac_models.inc
 menufile,ui_mp/main.menu
 menufile,ui_mp/scriptmenus
@@ -611,7 +607,6 @@ menufile,ui_mp/scriptmenus/changemodel_marines.menu
 menufile,ui_mp/scriptmenus/changemodel_woodland.menu
 menufile,ui_mp/scriptmenus/class.menu
 menufile,ui_mp/scriptmenus/weapons.menu
-
 rawfile,maps/ac130.gsc
 rawfile,maps/aftermath.gsc
 rawfile,maps/aftermath_fx.gsc
@@ -829,6 +824,7 @@ weapon,mp/mwr_m40a3_mp
 weapon,mp/msr_mp
 weapon,mp/msr_acog_mp
 weapon,mp/deserteagleakimbo_mp
+weapon,mp/deserteagleakimbosilencer_mp
 sound,mwr_m40a3
 sound,msr
 fx,flash/20mm_metal_impact
@@ -847,6 +843,7 @@ material,tf_mtl_weapon_sml_square_silencer
 sound,bf4_57,,all_mp
 xanim,iw6_p226_ads_down
 xanim,iw6_p226_ads_up
+xanim,pb_sprint_pistol
 xanim,vm_J007_P2011akimbo_fire
 xanim,vm_J007_P2011akimbo_fire_ads
 xanim,vm_J007_P2011akimbo_fire_last
@@ -874,3 +871,5 @@ xmodel,vm_J007_P2011_akimbo
 xmodel,vm_J007_P2011mod_akimbo
 xmodel,vm_J007_P226_akimbo
 xmodel,vm_J007_DEAGLES
+rawfile,mp/playeranim.script
+rawfile,mp/playeranimtypes.txt
