@@ -239,7 +239,7 @@ dropWeaponForDeath( attacker )
 		self switchtoweapon(weapon);
 		self attach(getWeaponModel(weapon), "tag_weapon_right");
 		item = self dropItem( weapon );
-		self.droppedDeathWeapon = true;
+		//self.droppedDeathWeapon = true;
     }
     //PeZBOT
 	else

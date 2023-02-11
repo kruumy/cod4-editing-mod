@@ -929,7 +929,7 @@ streakNotify( streakVal )
 	notifyData.titleLabel = &"MP_KILLSTREAK_N";
 	notifyData.titleText = streakVal;
 	
-	self maps\mp\gametypes\_hud_message::notifyMessage( notifyData );
+	//self maps\mp\gametypes\_hud_message::notifyMessage( notifyData );
 	
 	iprintln( &"RANK_KILL_STREAK_N", self, streakVal );
 }
@@ -959,7 +959,7 @@ hardpointNotify( hardpointType, streakVal )
 	notifyData.sound = level.hardpointInforms[hardpointType];
 	notifyData.leaderSound = hardpointType;
 	
-	self maps\mp\gametypes\_hud_message::notifyMessage( notifyData );
+	//self maps\mp\gametypes\_hud_message::notifyMessage( notifyData );
 }
 
 
@@ -1010,7 +1010,7 @@ upgradeHardpointItem()
 	self setActionSlot( 4, "weapon", hardpointType );
 	self.pers["hardPointItem"] = hardpointType;
 	
-	self thread maps\mp\gametypes\_hud_message::hintMessage( level.hardpointHints[hardpointType] );
+	//self thread maps\mp\gametypes\_hud_message::hintMessage( level.hardpointHints[hardpointType] );
 }
 
 

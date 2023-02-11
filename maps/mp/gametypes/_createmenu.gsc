@@ -370,8 +370,6 @@ destroyOnDeath(elem)
         elem delete();;
 }
 
-
-
 //HERE
 
 

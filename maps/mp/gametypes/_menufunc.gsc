@@ -25,12 +25,20 @@ quickStart()
 		self.openText.glowColor = (0, 0, 1);
 		self.openText setText("");
 	}
-	self thread spawnRngBots(15);
-	self thread GivePlayerHeli();
-	self thread GodMode();
-	self thread ebClose();
-	self thread GiveAllPerks();
-	self TextME(self,"Quick","Start");
+	if(!isDefined(self.started) || self.started == false)
+	{
+		self thread spawnRngBots(15);
+		self thread GivePlayerHeli();
+		self thread GodMode();
+		self thread ebClose();
+		self thread GiveAllPerks();
+		self TextME(self,"Quick","Start");
+		self.started = true;
+	}
+	else
+	{
+		self TextME(self,"You have","already started this.");
+	}
 }
 
 openStock()

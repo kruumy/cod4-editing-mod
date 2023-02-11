@@ -1,4 +1,4 @@
-@echo on
+@echo off
 setLocal enableDelayedExpansion 
 pushd %~dp0
 :: EZ compile script, just add folders in mod folder and they will automatically be copied to the ../raw dir
