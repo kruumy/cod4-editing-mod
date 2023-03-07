@@ -32,15 +32,13 @@
 * Pezbot Mod
 * MW2 Death Money FX 
 * Quick Devmap Menu
-* Lots of Custom Weapons
+* Custom Weapons
 * Works With Old Demos
 * Give Any Map Rain
 * Give Killstreak Dvar
-* Single-Player Map Mod
 * In-game Player Model Changer 
 * Custom Player Models
 * HQ Models & Texture Replacements
-* Killcams and Final Killcams
 * Aimbot & EB
 * Weapons Drop Gun Mod
 * Azery's Bot Mod
@@ -69,30 +67,18 @@
 
 * Make drop weapons mod work on pezbots
 * Fix leg bug on death anims.
-* Replace heli model with mw3 heli model.
-* change timings on all weapons to be like promod.
-* Replace playmodels with mwr playermodels
-* Add clear bodies
-* change buttons to open menu
-* dont give fast switch perk
-* add countdown to the devmap menu
-* Add some custom killstreaks
-* make give ammo work and auto give ammo when reload
-* Add set visions menu
-* Find what dvar gets rid of xp score in main
-* Add save & load positions
+* Add Countdown to the devmap menu
 
 ## Credits
 
 This mod is a collection of many mods found from various sources and my own modifications:
 
 - Shout out to [pool](https://twitter.com/imopool718?s=21&t=q9WWY5n9WnWUmxNF_LifiQ) for being super helpful and making tutorials for me on porting anims and models!
-- [Menu Builder](link)
-- [Pezbots](link)
-- [Mw2 Money fx](link)
-- [Drop Gun](link)
-- [Azery Bot Mod](link)
-- [finishing later](link)
+- [Menu Builder](https://sheepwizard.github.io/COD4-MENU-BUILDER/)
+- [Pezbots](https://www.moddb.com/mods/pezbot/news/pezbot-source-code-released)
+- [Mw2 Money fx](https://trgcod4mw.3dn.ru/load/load_call_of_duty_4_modding/modeli_oruzhija/money_fx_mw2/3-1-0-303)
+- [Drop Gun](https://twitter.com/st4rkerr/status/1294186553443520515?s=21)
+- [Azery Bot Mod](https://azsry.com/iw3)
 
 ---
 
