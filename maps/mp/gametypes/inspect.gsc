@@ -2,10 +2,9 @@ main()
 {
     level.inspectWeapons = [];
     level.inspectWeaponHoldTime = 0.8;
-    /*addInspectableWeapon("mwr_remington700_mp");
+    addInspectableWeapon("mwr_remington700_mp");
     addInspectableWeapon("mwr_deserteagle_mp");
     addInspectableWeapon("mwr_m40a3_mp");
-    addInspectableWeapon("mwr_svd_mp");*/
     addInspectableWeapon("mwr_ak74u_mp");
     addInspectableWeapon("mwr_ak74u_acog_mp");
     addInspectableWeapon("mwr_ak74u_silencer_mp");

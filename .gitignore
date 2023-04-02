@@ -1,5 +1,9 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs
+﻿/.vs
+compile.bat
+7za.exe
+csvcreate.bat
+z_editingmod-iw3.iwd
+mod.ff
+games_mp.log
+weapons/WeaponEditor.exe
+missingasset.csv
