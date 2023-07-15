@@ -102,6 +102,7 @@ init()
 	
 	buildChallegeInfo();
 	
+	level.prematchPeriod = 0;
 	level thread onPlayerConnect();
 }
 
