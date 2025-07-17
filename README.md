@@ -8,7 +8,6 @@
 <div align="center">
   <a href="https://github.com/kruumy/cod4-editing-mod/releases"><img src="https://img.shields.io/github/v/release/kruumy/cod4-editing-mod?label=Latest%20version&style=flat-square"></a>
   <a href="https://github.com/kruumy/cod4-editing-mod/releases""><img src="https://img.shields.io/github/downloads/kruumy/cod4-editing-mod/total"></a>
-  <a href="https://paypal.me/JPauls281"><img src="https://img.shields.io/badge/Donate-Paypal-orange?style=flat-square"></a>
 </div>
 <p align="center">
   <a href="#features">Features</a> •
