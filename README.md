@@ -13,7 +13,6 @@
   <a href="#features">Features</a> •
   <a href="#support">Support</a> •
   <a href="#installation">Installation</a> •
-  <a href="#todo">Todo</a> •
   <a href="#credits">Credits</a>
 </p>
 <div align="center">
@@ -59,12 +58,6 @@
 
 * Note: **Special Grenade Button** Opens The In-Game Menu. (Usually "4")
 * Sometimes giving a weapon or spawning while the demo is recording will crash the demo at that time. Make sure to stop record and rerecord between.
-
-## Todo
-
-* Make drop weapons mod work on pezbots
-* Fix leg bug on death anims.
-* Add Countdown to the devmap menu
 
 ## Credits
 
