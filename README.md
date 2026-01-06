@@ -51,8 +51,6 @@
 | [IW3xo](https://github.com/xoxor4d/iw3xo-dev) | Yes |
 | [COD4x](https://cod4x.me/) | No |
 
-**[Auto IW3xo Installer](https://github.com/kruumy/iw3xo-one-click-installer)**
-
 ## Installation
 
 1. Download the latest version from **releases**. -->
